@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+}
+
+.title{
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 20px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+button{
+    margin: 0;
+    padding: 5px 10px;
+
+}
